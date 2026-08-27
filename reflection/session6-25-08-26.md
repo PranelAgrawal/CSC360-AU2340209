@@ -16,7 +16,7 @@
 - Upstream means it looks to the original github repository, from which I have cloned this particular repository
 - .gitignore is used wherein we put those files that we dont want to give out publicly.
 - pom.xml is the code form which one can attach external code and execute it. So instead of writing commands I can use xml. Along with this, pom.xml has information on what all files need to be run, what java version and so on. So in this project, pom.xml has information about the "java" folder and now for all the files that are inside the java folder, pom.xml will have information on how to compile and execute the files.
-- - Firstly, it is important to check whether there is no error in the pom.xml.
+- Firstly, it is important to check whether there is no error in the pom.xml.
 - Now when we compile the main java program, we fill find that a target folder is created. The target folder will have similar folder structure like the main folder but instead of .java, there would be .class files which is similar to bytecode for machine to read the program.
 - Accessible class is used for those people who can't see the images and that if we want the StringReader to read then this class will provide information on those images.
 - Thread is a smallest unit of process, which is used if our aim is to do multitasking. Threads will help run the process independently for different users as and well required.
